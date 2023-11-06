@@ -1,0 +1,141 @@
+header{
+    height: 80px;
+    background-color: #1f6764;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    padding-bottom: 150px;
+
+    
+}
+h1{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+.uno{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 30px;
+ 
+}
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+.presentFoto{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+}
+.descYo{
+    padding-top: 180px;
+}
+.dos{
+    background-color: #1f6764;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+}
+.proyect{
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.proyectDesc{
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.proyectFoto{
+    width: 450px;
+    height: 300px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.tres{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    display: flex;
+    justify-content: center;
+
+}
+.tec-list{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+.tec{
+    height: 120px;
+}
+.tecnologias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding-bottom: 30px;
+}
+.cuatro{
+    background-color: #1f6764;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+}
+.aboutFoto{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+.aboutDesc{
+    padding-top: 180px;
+    width: 600px;
+}
+footer{
+    background-color: #4d4a4b;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.contacto{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.red-social{
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
